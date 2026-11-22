@@ -1,0 +1,1 @@
+Ícones dos elementos.

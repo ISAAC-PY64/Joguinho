@@ -1,0 +1,10 @@
+.backup-panel{max-width:520px;margin:14px auto 0;text-align:left}
+.backup-panel h3{margin:0 0 7px;font:700 15px Manrope}
+.backup-panel>p{font-size:11px;line-height:1.55}
+.backup-status{min-height:18px;font-size:11px}
+.backup-status.saved{color:#8fcea0}
+.backup-status.error{color:#f0a08d}
+.backup-actions{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:12px 0}
+.backup-actions select{flex:1;min-width:170px;background:#0e1b14;border:1px solid #ffffff24;border-radius:9px;padding:10px;color:#edf2e9;font:inherit;font-size:11px}
+.backup-panel>small{display:block;font-size:10px;line-height:1.5}
+@media(max-width:560px){.backup-actions>*{width:100%}}

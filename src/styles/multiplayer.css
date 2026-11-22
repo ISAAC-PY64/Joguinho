@@ -1,0 +1,39 @@
+.multiplayer-panel{max-width:1000px;margin:0 auto}
+.mp-lobby{margin-top:14px}
+.mp-team-picker{margin-top:22px}
+.mp-team-picker h3,.mp-side h3{font:700 16px Manrope;margin:0 0 7px}
+.mp-team-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:10px;margin:14px 0}
+.mp-creature{width:100%;display:flex;align-items:center;gap:12px;padding:12px;text-align:left;background:#20372a;border:1px solid #ffffff18;border-radius:13px;color:#e9f0e9}
+.mp-creature:not(:disabled):hover{border-color:#d4b66f88;background:#294333}
+.mp-creature.selected,.mp-creature.active{border-color:#d4b66f;background:#314a32}
+.mp-creature:disabled{opacity:1;cursor:default}
+.mp-creature:disabled:not(.active){opacity:.7}
+.mp-creature-art{width:46px;height:46px;flex:none;display:grid;place-items:center;border-radius:12px;background:#ffffff0b;font-size:28px}
+.mp-creature-art .creature-image{padding:4px}
+.mp-creature-info{display:flex;flex-direction:column;gap:4px;min-width:0}
+.mp-creature-info b{font-size:12px}
+.mp-creature-info small{color:#a9baaa;font-size:9px;overflow-wrap:anywhere}
+.mp-creature-info .mp-effect{color:#e5ca80}
+.mp-battle{margin-top:18px}
+.mp-battle-heading{display:flex;align-items:center;justify-content:space-between;gap:10px;padding-bottom:14px;border-bottom:1px solid #ffffff18}
+.mp-battle-heading b{font-size:11px;color:#dfc778;letter-spacing:1px}
+.mp-battle-heading small{color:#a5b6a7;font-size:10px}
+.mp-paused{padding:10px 12px;border-radius:10px;background:#483b25;color:#f0d998;font-size:12px}
+.mp-result{display:flex;flex-direction:column;gap:6px;align-items:center;margin:15px 0;padding:16px;border:1px solid #ffffff18;border-radius:12px;font:800 21px Manrope}
+.mp-result.won{background:#254632;color:#e5d38d}
+.mp-result.lost{background:#392c2b;color:#eac4a9}
+.mp-result small{font:400 11px 'DM Sans';color:#cad5ca;text-align:center}
+.mp-teams{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:18px 0}
+.mp-side{display:flex;flex-direction:column;gap:8px;min-width:0}
+.mp-side .mp-creature{min-height:77px}
+.mp-side .mp-creature.active{box-shadow:inset 3px 0 #d5b56d}
+.mp-note{margin-top:18px}
+.mp-round-controls{display:flex;flex-direction:column;gap:14px;padding:16px;border:1px solid #ffffff18;border-radius:14px;background:#101e16}
+.mp-choice-group{display:flex;flex-direction:column;gap:8px}
+.mp-choice-group>b{font-size:12px;color:#e3d18c}
+.mp-choice-options{display:flex;flex-wrap:wrap;gap:8px}
+.mp-choice-options .selected{background:#d4b66f;border-color:#e4ca8b;color:#1d2a1f}
+.mp-secret-note{margin:0;text-align:center}
+.mp-result.draw{background:#30362d;color:#e5d38d}
+.connection-error{font-size:11px;color:#f0a08d;line-height:1.5}
+@media(max-width:650px){.mp-teams{grid-template-columns:1fr}.mp-battle-heading{align-items:flex-start;flex-direction:column}.mp-team-grid{grid-template-columns:1fr}}

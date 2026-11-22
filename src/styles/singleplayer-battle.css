@@ -1,0 +1,34 @@
+.sp-combatants{display:grid;grid-template-columns:1fr 50px 1fr;align-items:start;gap:12px;margin:28px 0}
+.sp-combatant{display:flex;flex-direction:column;align-items:center;gap:8px;min-width:0}
+.sp-fighter{font-size:64px;width:120px;height:110px;border-radius:20px;background:#284331;display:grid;place-items:center}
+.sp-fighter .creature-image{padding:8px}
+.sp-combatant>b{font-size:13px}
+.sp-combatant>small{font-size:10px;color:#a0b2a3;text-align:center}
+.sp-combatant .health{margin:2px 0 8px}
+.sp-team{width:100%;display:grid;gap:6px}
+.sp-team-member{display:flex;align-items:center;gap:8px;min-width:0;padding:7px 9px;border:1px solid #ffffff12;border-radius:9px;background:#101e1677;color:#9bad9f}
+.sp-team-member.active{border-color:#d4b66f77;color:#edf2e9}
+.sp-team-member.defeated{opacity:.42}
+.sp-team-member>span{font-size:20px}
+.sp-team-member>span .creature-image{width:24px;height:24px}
+.sp-switch-targets .creature-image{width:22px;height:22px;display:inline-block;vertical-align:middle}
+.sp-team-member>div{display:flex;justify-content:space-between;gap:6px;min-width:0;width:100%;font-size:10px}
+.sp-team-member b{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.sp-team-member small{white-space:nowrap}
+.sp-round-panel,.sp-result{padding:18px;border-radius:14px;background:#101e1677;border:1px solid #ffffff14}
+.sp-round-panel h3{margin:0 0 5px;font:700 15px Manrope}
+.sp-round-panel>p,.sp-result p{font-size:11px;line-height:1.5}
+.sp-choice-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:16px}
+.sp-choice-group{min-width:0;margin:0;padding:0;border:0}
+.sp-choice-group legend,.sp-action-group>span{font-size:11px;color:#c7d3c8;margin-bottom:8px}
+.sp-choice-options{display:flex;gap:7px;flex-wrap:wrap}
+.sp-choice-options button{flex:1;min-width:130px}
+.sp-choice-options .selected,.sp-switch-targets .selected{border-color:#d5b56d;background:#40583a}
+.sp-action-group{margin-top:15px}
+.sp-action-group>span{display:block}
+.sp-switch-targets{display:flex;gap:7px;flex-wrap:wrap;margin-top:12px}
+.sp-confirm{width:100%;margin-top:16px}
+.sp-result{text-align:center;margin-bottom:16px}
+.sp-result h2{margin:0 0 5px;color:#e5d39c;font:800 22px Manrope}
+.sp-result p{margin:0;color:#aab9aa}
+@media(max-width:650px){.sp-combatants{grid-template-columns:1fr 30px 1fr;gap:5px}.sp-fighter{width:88px;height:85px;font-size:48px}.sp-choice-grid{grid-template-columns:1fr}.sp-choice-options button{min-width:120px}.sp-team-member>div{flex-direction:column;gap:2px}}

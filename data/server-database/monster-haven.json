@@ -1,0 +1,473 @@
+{
+  "rooms": [
+    {
+      "code": "11DAAE",
+      "createdAt": 1794853267937,
+      "status": "in_battle"
+    },
+    {
+      "code": "BB2204",
+      "createdAt": 1794854658248,
+      "status": "closed"
+    },
+    {
+      "code": "BD72D8",
+      "createdAt": 1794856812893,
+      "status": "finished",
+      "result": {
+        "winnerId": "10694de5-4c85-40a2-9702-e9295aceea0e",
+        "loserId": "1794853373268-33bc4673890e48",
+        "draw": false,
+        "recordedAt": 1794857224681
+      }
+    },
+    {
+      "code": "EDEF89",
+      "createdAt": 1794858873008,
+      "status": "waiting"
+    },
+    {
+      "code": "EED4EB",
+      "createdAt": 1794859127481,
+      "status": "finished",
+      "result": {
+        "winnerId": "10694de5-4c85-40a2-9702-e9295aceea0e",
+        "loserId": "1794853373268-33bc4673890e48",
+        "draw": false,
+        "recordedAt": 1794859529724
+      }
+    },
+    {
+      "code": "ABC123",
+      "createdAt": 1795371598657,
+      "status": "finished",
+      "snapshot": {
+        "code": "ABC123",
+        "status": "finished",
+        "players": [],
+        "battle": null,
+        "resultRecorded": true,
+        "reconnectTimer": null
+      },
+      "result": {
+        "winnerId": "winner",
+        "loserId": "loser",
+        "draw": false,
+        "recordedAt": 1795371598660
+      }
+    },
+    {
+      "code": "BDEGHL",
+      "createdAt": 1795371599262,
+      "status": "in_battle",
+      "snapshot": {
+        "code": "BDEGHL",
+        "status": "in_battle",
+        "createdAt": 1795371599262,
+        "players": [
+          {
+            "playerId": "8a39a706-5443-4abf-9f14-c8fe15e5b847",
+            "sessionToken": "8c6bade1-9314-4043-adc2-00ce82a19020",
+            "socketId": "On9vywBd9-pSVpZiAAAA",
+            "name": "Host",
+            "connected": false,
+            "team": [
+              {
+                "id": "host-0",
+                "speciesId": "phoenix",
+                "stage": "normal",
+                "name": "Phoenix",
+                "rarity": "mythic",
+                "element": "fire",
+                "ability": "rebirth",
+                "stats": {
+                  "hp": 123,
+                  "attack": 72,
+                  "defense": 42,
+                  "speed": 48
+                },
+                "maxHp": 123,
+                "hp": 123,
+                "effects": {
+                  "shield": false,
+                  "poisonTurns": 0,
+                  "speedBoost": false,
+                  "evasion": false,
+                  "rebirthUsed": false
+                }
+              },
+              {
+                "id": "host-1",
+                "speciesId": "fox",
+                "stage": "normal",
+                "name": "Fox",
+                "rarity": "uncommon",
+                "element": "fire",
+                "ability": "critical_focus",
+                "stats": {
+                  "hp": 60,
+                  "attack": 30,
+                  "defense": 19,
+                  "speed": 31
+                },
+                "maxHp": 60,
+                "hp": 60,
+                "effects": {
+                  "shield": false,
+                  "poisonTurns": 0,
+                  "speedBoost": false,
+                  "evasion": false,
+                  "rebirthUsed": false
+                }
+              },
+              {
+                "id": "host-2",
+                "speciesId": "wolf",
+                "stage": "normal",
+                "name": "Wolf",
+                "rarity": "rare",
+                "element": "nature",
+                "ability": "double_attack",
+                "stats": {
+                  "hp": 73,
+                  "attack": 39,
+                  "defense": 25,
+                  "speed": 32
+                },
+                "maxHp": 73,
+                "hp": 73,
+                "effects": {
+                  "shield": false,
+                  "poisonTurns": 0,
+                  "speedBoost": false,
+                  "evasion": false,
+                  "rebirthUsed": false
+                }
+              }
+            ],
+            "ready": true
+          },
+          {
+            "playerId": "b5d18e4f-0647-4fc5-aa27-bc4aed8cb112",
+            "sessionToken": "4a86f544-8816-46a2-b373-8fa50f5b9faa",
+            "socketId": "XnVkFRgRueqXXexnAAAB",
+            "name": "Guest",
+            "connected": false,
+            "team": [
+              {
+                "id": "guest-0",
+                "speciesId": "chicken",
+                "stage": "normal",
+                "name": "Chicken",
+                "rarity": "common",
+                "element": "nature",
+                "ability": "double_attack",
+                "stats": {
+                  "hp": 50,
+                  "attack": 20,
+                  "defense": 15,
+                  "speed": 18
+                },
+                "maxHp": 50,
+                "hp": 50,
+                "effects": {
+                  "shield": false,
+                  "poisonTurns": 0,
+                  "speedBoost": false,
+                  "evasion": false,
+                  "rebirthUsed": false
+                }
+              },
+              {
+                "id": "guest-1",
+                "speciesId": "rat",
+                "stage": "normal",
+                "name": "Rat",
+                "rarity": "common",
+                "element": "earth",
+                "ability": "evasion",
+                "stats": {
+                  "hp": 45,
+                  "attack": 22,
+                  "defense": 12,
+                  "speed": 24
+                },
+                "maxHp": 45,
+                "hp": 45,
+                "effects": {
+                  "shield": false,
+                  "poisonTurns": 0,
+                  "speedBoost": false,
+                  "evasion": false,
+                  "rebirthUsed": false
+                }
+              },
+              {
+                "id": "guest-2",
+                "speciesId": "rabbit",
+                "stage": "normal",
+                "name": "Rabbit",
+                "rarity": "common",
+                "element": "nature",
+                "ability": "speed_boost",
+                "stats": {
+                  "hp": 48,
+                  "attack": 18,
+                  "defense": 13,
+                  "speed": 30
+                },
+                "maxHp": 48,
+                "hp": 48,
+                "effects": {
+                  "shield": false,
+                  "poisonTurns": 0,
+                  "speedBoost": false,
+                  "evasion": false,
+                  "rebirthUsed": false
+                }
+              }
+            ],
+            "ready": true
+          }
+        ],
+        "battle": {
+          "phase": "battle",
+          "turnNumber": 1,
+          "players": [
+            {
+              "playerId": "8a39a706-5443-4abf-9f14-c8fe15e5b847",
+              "name": "Host",
+              "team": [
+                {
+                  "id": "host-0",
+                  "speciesId": "phoenix",
+                  "stage": "normal",
+                  "name": "Phoenix",
+                  "rarity": "mythic",
+                  "element": "fire",
+                  "ability": "rebirth",
+                  "stats": {
+                    "hp": 123,
+                    "attack": 72,
+                    "defense": 42,
+                    "speed": 48
+                  },
+                  "maxHp": 123,
+                  "hp": 123,
+                  "effects": {
+                    "shield": false,
+                    "poisonTurns": 0,
+                    "speedBoost": false,
+                    "evasion": false,
+                    "rebirthUsed": false
+                  }
+                },
+                {
+                  "id": "host-1",
+                  "speciesId": "fox",
+                  "stage": "normal",
+                  "name": "Fox",
+                  "rarity": "uncommon",
+                  "element": "fire",
+                  "ability": "critical_focus",
+                  "stats": {
+                    "hp": 60,
+                    "attack": 30,
+                    "defense": 19,
+                    "speed": 31
+                  },
+                  "maxHp": 60,
+                  "hp": 60,
+                  "effects": {
+                    "shield": false,
+                    "poisonTurns": 0,
+                    "speedBoost": false,
+                    "evasion": false,
+                    "rebirthUsed": false
+                  }
+                },
+                {
+                  "id": "host-2",
+                  "speciesId": "wolf",
+                  "stage": "normal",
+                  "name": "Wolf",
+                  "rarity": "rare",
+                  "element": "nature",
+                  "ability": "double_attack",
+                  "stats": {
+                    "hp": 73,
+                    "attack": 39,
+                    "defense": 25,
+                    "speed": 32
+                  },
+                  "maxHp": 73,
+                  "hp": 73,
+                  "effects": {
+                    "shield": false,
+                    "poisonTurns": 0,
+                    "speedBoost": false,
+                    "evasion": false,
+                    "rebirthUsed": false
+                  }
+                }
+              ],
+              "active": 0,
+              "defending": false
+            },
+            {
+              "playerId": "b5d18e4f-0647-4fc5-aa27-bc4aed8cb112",
+              "name": "Guest",
+              "team": [
+                {
+                  "id": "guest-0",
+                  "speciesId": "chicken",
+                  "stage": "normal",
+                  "name": "Chicken",
+                  "rarity": "common",
+                  "element": "nature",
+                  "ability": "double_attack",
+                  "stats": {
+                    "hp": 50,
+                    "attack": 20,
+                    "defense": 15,
+                    "speed": 18
+                  },
+                  "maxHp": 50,
+                  "hp": 50,
+                  "effects": {
+                    "shield": false,
+                    "poisonTurns": 0,
+                    "speedBoost": false,
+                    "evasion": false,
+                    "rebirthUsed": false
+                  }
+                },
+                {
+                  "id": "guest-1",
+                  "speciesId": "rat",
+                  "stage": "normal",
+                  "name": "Rat",
+                  "rarity": "common",
+                  "element": "earth",
+                  "ability": "evasion",
+                  "stats": {
+                    "hp": 45,
+                    "attack": 22,
+                    "defense": 12,
+                    "speed": 24
+                  },
+                  "maxHp": 45,
+                  "hp": 45,
+                  "effects": {
+                    "shield": false,
+                    "poisonTurns": 0,
+                    "speedBoost": false,
+                    "evasion": false,
+                    "rebirthUsed": false
+                  }
+                },
+                {
+                  "id": "guest-2",
+                  "speciesId": "rabbit",
+                  "stage": "normal",
+                  "name": "Rabbit",
+                  "rarity": "common",
+                  "element": "nature",
+                  "ability": "speed_boost",
+                  "stats": {
+                    "hp": 48,
+                    "attack": 18,
+                    "defense": 13,
+                    "speed": 30
+                  },
+                  "maxHp": 48,
+                  "hp": 48,
+                  "effects": {
+                    "shield": false,
+                    "poisonTurns": 0,
+                    "speedBoost": false,
+                    "evasion": false,
+                    "rebirthUsed": false
+                  }
+                }
+              ],
+              "active": 0,
+              "defending": false
+            }
+          ],
+          "log": [
+            "A batalha começou!"
+          ],
+          "finished": false,
+          "winnerId": null,
+          "draw": false,
+          "pendingChoices": {
+            "8a39a706-5443-4abf-9f14-c8fe15e5b847": {
+              "actionType": "attack",
+              "attackRegion": "upper",
+              "defendRegion": "lower"
+            }
+          }
+        },
+        "resultRecorded": false,
+        "reconnectTimer": null
+      }
+    }
+  ],
+  "players": [
+    {
+      "roomCode": "11DAAE",
+      "socketId": "VX3n12qHwTzCIC6UAAAB",
+      "name": "Guardião",
+      "joinedAt": 1794853267938
+    },
+    {
+      "roomCode": "11DAAE",
+      "socketId": "7H2QnWnhFE_ox91eAAAC",
+      "name": "Guardião",
+      "joinedAt": 1794853330836
+    },
+    {
+      "roomCode": "BB2204",
+      "socketId": "MlIuOMI1d4C2kow9AAAA",
+      "name": "Isaac",
+      "joinedAt": 1794854658249
+    },
+    {
+      "roomCode": "BD72D8",
+      "socketId": "fVfrFhLwxFFxe9fcAAAB",
+      "name": "Isaac",
+      "joinedAt": 1794856812895
+    },
+    {
+      "roomCode": "BD72D8",
+      "socketId": "YQuZSjVE0bYv3dTmAAAA",
+      "name": "Celular",
+      "joinedAt": 1794856824144
+    },
+    {
+      "roomCode": "EDEF89",
+      "socketId": "CzanU8sx0_ygRg6JAAAG",
+      "name": "Isaac",
+      "joinedAt": 1794858873010
+    },
+    {
+      "roomCode": "EDEF89",
+      "socketId": "PZ53csnLrFVc4F0jAAAF",
+      "name": "Celular",
+      "joinedAt": 1794858892626
+    },
+    {
+      "roomCode": "EED4EB",
+      "socketId": "u3T3zZu46bIxPjMpAAAB",
+      "name": "Isaac",
+      "joinedAt": 1794859127483
+    },
+    {
+      "roomCode": "EED4EB",
+      "socketId": "hZnHF0OKpFpa2O6JAAAC",
+      "name": "Celular",
+      "joinedAt": 1794859171775
+    }
+  ]
+}

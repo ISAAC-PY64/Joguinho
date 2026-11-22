@@ -1,0 +1,14 @@
+:root {
+  background-color: #0d1914;
+  background-image:
+    linear-gradient(rgba(13, 25, 20, 0.48), rgba(13, 25, 20, 0.62)),
+    url("/assets/backgrounds/background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+body {
+  background: transparent;
+}

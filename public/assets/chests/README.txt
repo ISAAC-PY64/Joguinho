@@ -1,0 +1,1 @@
+Assets provisórios de baús.

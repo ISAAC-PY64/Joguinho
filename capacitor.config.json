@@ -1,0 +1,6 @@
+{
+  "appId": "com.monsterhaven.game",
+  "appName": "Monster Haven",
+  "webDir": "dist",
+  "bundledWebRuntime": false
+}
